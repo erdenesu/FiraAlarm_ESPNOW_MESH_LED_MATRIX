@@ -1,0 +1,9 @@
+#include "Arduino.h"
+#include "WiFi.h"
+#include "WiFiAP.h"
+#include <EEPROM.h>
+#include <WebServer.h>
+void WiFi_Setup();
+bool wifiConnecter();
+void handle_server();
+void EEPROM_clear();
